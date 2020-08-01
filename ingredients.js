@@ -20,3 +20,9 @@ for (let i = 0; i < ingredients.length; i++) {
 for (let x = ingredients.length - 1; x >= 0; x--) {
   console.log(ingredients[x]);
 }
+
+let backCount = ingredients.length - 1;
+while (backCount >= 0) {
+  console.log(ingredients[backCount]);
+  backCount--;
+}
